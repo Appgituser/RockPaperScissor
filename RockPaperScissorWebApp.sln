@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RockPaperScissor.UI", "RockPaperScissor.UI\", "{2FD05ED2-8F10-43E9-812F-430C03203692}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52138"
+		Debug.AspNetCompiler.PhysicalPath = "RockPaperScissor.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52138\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52138"
+		Release.AspNetCompiler.PhysicalPath = "RockPaperScissor.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52138\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52138"
+		SlnRelativePath = "RockPaperScissor.UI\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissor.Business", "RockPaperScissor.Business\RockPaperScissor.Business.csproj", "{86B861B4-D17B-4CA2-95EC-1B2E7230C29C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{421E3BA9-B5C0-4829-B70C-866E56DC9260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissor.Test", "RockPaperScissor.Test\RockPaperScissor.Test.csproj", "{9226116D-8C34-4D4C-A3EB-595E47F9CF18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FD05ED2-8F10-43E9-812F-430C03203692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD05ED2-8F10-43E9-812F-430C03203692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD05ED2-8F10-43E9-812F-430C03203692}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD05ED2-8F10-43E9-812F-430C03203692}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{86B861B4-D17B-4CA2-95EC-1B2E7230C29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B861B4-D17B-4CA2-95EC-1B2E7230C29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B861B4-D17B-4CA2-95EC-1B2E7230C29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B861B4-D17B-4CA2-95EC-1B2E7230C29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9226116D-8C34-4D4C-A3EB-595E47F9CF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9226116D-8C34-4D4C-A3EB-595E47F9CF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9226116D-8C34-4D4C-A3EB-595E47F9CF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9226116D-8C34-4D4C-A3EB-595E47F9CF18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9226116D-8C34-4D4C-A3EB-595E47F9CF18} = {421E3BA9-B5C0-4829-B70C-866E56DC9260}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D068CC5-76C3-47E7-8409-F907693FEE19}
+	EndGlobalSection
+EndGlobal
